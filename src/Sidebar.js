@@ -9,21 +9,21 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import PermIdentityOutlinedIcon from '@mui/icons-material/PermIdentityOutlined';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import AddCircleOutlineRoundedIcon from '@mui/icons-material/AddCircleOutlineRounded';
-import AccountBoxTwoToneIcon from '@mui/icons-material/AccountBoxTwoTone';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 function Sidebar() {
 
     return(
         <div className="sidebar">
         <TwitterIcon className="sidebar__twitterIcon"/>
         {/* Sidebar Option */}
-        <SidebarOption active Icon={HomeIcon}/>
+        <SidebarOption  Icon={HomeIcon}/>
         <SidebarOption Icon ={TagIcon}/>
         <SidebarOption Icon ={NotificationsOutlinedIcon}/>
         <SidebarOption Icon={EmailOutlinedIcon}/>
         <SidebarOption Icon={PermIdentityOutlinedIcon}/>
         <SidebarOption Icon={MoreHorizIcon}/>
-        <SidebarOption Icon={AddCircleOutlineRoundedIcon}/>
-        <AccountBoxTwoToneIcon className="sidebar_profileIcon"/>
+        <SidebarOption active Icon={AddCircleOutlineRoundedIcon}/>
+        <AccountCircleIcon className="sidebar_profileIcon"/>
         </div>
     );
   

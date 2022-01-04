@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    margin-left: 8%;
+    margin-left: 10%;
 }
 .sidebarOption > .MuiSvgIcon-root {
     padding: 20px;
@@ -12,7 +12,7 @@
     background-color: #e7e4e4;
     border-radius: 50%;
     color: var(--twitter-color);
-    transition: color 100ms ease;
+    transition: color 100ms ease-out;
     /* transition-delay: 1s; */
     width: 62px;
     height: 62px;

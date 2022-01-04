@@ -1,13 +1,20 @@
+.sidebar {
+  border-right: 1px solid var(--twitter-background);
+  flex: 0.1;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
 .sidebar__twitterIcon {
     color: var(--twitter-color);
     font-size: 30px !important;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-bottom: 20px;
   }
 
   .sidebar_profileIcon {
     color: rgb(0, 0, 0);
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 100%;
     margin-bottom: 20px;
     cursor: pointer;
@@ -17,7 +24,7 @@
     background-color: #e7e4e4;
     border-radius: 50%;
     color: var(--twitter-color);
-    transition: color 100ms ease;
+    transition: color 100ms ease-out;
     /* transition-delay: 1s; */
     width: 20px;
     height: 20px;
