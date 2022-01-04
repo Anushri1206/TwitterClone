@@ -1,0 +1,25 @@
+.sidebar__twitterIcon {
+    color: var(--twitter-color);
+    font-size: 30px !important;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .sidebar_profileIcon {
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-top: 100%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .sidebar_profileIcon:hover {
+    background-color: #e7e4e4;
+    border-radius: 50%;
+    color: var(--twitter-color);
+    transition: color 100ms ease;
+    /* transition-delay: 1s; */
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+  }
