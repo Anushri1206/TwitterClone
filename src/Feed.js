@@ -3,7 +3,6 @@ import './Feed.css';
 import TweetBox from './TweetBox';
 import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
 import Post from './Post';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 function Feed(){
     return(
@@ -18,6 +17,7 @@ function Feed(){
     
     {/*Twitter Box*/}
     <TweetBox/>
+    <Post/>
     <Post/>
         </div>
     )

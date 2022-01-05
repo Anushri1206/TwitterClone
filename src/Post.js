@@ -22,15 +22,15 @@ import PublishIcon from '@mui/icons-material/Publish';
                 Anushri
                 <span className="post__headerSpecial">
                   {verified && <VerifiedIcon className="post__badge" />} @
-                  {'unushri'}
+                  {'Anushri1206'}
                 </span>
               </h3>
             </div>
             <div className="post__headerDescription">
-              <p>{'Lets Dance'}</p>
+              <p>{'Sample tweet text'}</p>
             </div>
           </div>
-          <img src= "https://media.giphy.com/media/8m4R4pvViWtRzbloJ1/giphy.gif" alt="" />
+          <img src= "https://images.unsplash.com/photo-1640702149643-d172d1463fe4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="image" />
           <div className="post__footer">
             <ChatBubbleOutlineIcon fontSize="small" />
             <RepeatIcon fontSize="small" />

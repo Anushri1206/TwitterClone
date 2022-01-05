@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./TweetBox.css";
 import { Button } from '@mui/material';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
